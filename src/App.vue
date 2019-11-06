@@ -34,22 +34,22 @@ export default {
     return {
     events: [
       {
-        start: '2018-11-21',
-        end: '2018-11-21',
+        start: '2018-11-21 00:00',
+        end: '2018-11-21 12:00',
         title: 'Need to go shopping',
         content: '<i class="v-icon material-icons">shopping_cart</i>',
         class: 'leisure'
       },
       {
-        start: '2018-11-21',
-        end: '2018-11-21',
+        start: '2018-11-21 13:00',
+        end: '2018-11-21 15:00',
         title: 'Golf with John',
         content: '<i class="v-icon material-icons">golf_course</i>',
         class: 'sport'
       },
       {
-        start: '2018-11-22',
-        end: '2018-11-22',
+        start: '2018-11-22 00:00',
+        end: '2018-11-22 23:59',
         title: 'Dad\'s birthday!',
         content: '<i class="v-icon material-icons">cake</i>',
         class: 'sport'
