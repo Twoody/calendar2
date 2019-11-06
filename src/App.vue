@@ -17,6 +17,11 @@
           {{ hours }}
         </div>
       </template>
+
+      <template v-slot:event-renderer="{ event, view }">
+        <span class="foo">{{ event.title }}</span>
+      </template>
+
     </vue-cal>
   </div>
 </template>
