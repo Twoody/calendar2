@@ -3,7 +3,7 @@
     <vue-cal
       :time-cell-height="18"
       style="height: 350px"
-      default-view="day"
+      default-view="week"
       :disable-views="['years', 'year', 'month']"
       :events="events"
       :time-from="8 * 60"
@@ -20,6 +20,10 @@
 
       <template v-slot:event-renderer="{ event, view }">
         <span class="foo">{{ event.title }}</span>
+      </template>
+
+      <template v-slot:cell-content="{ cell, view, events }">
+        <span class="vuecal__cell-date">{{ "meatz" }}</span>
       </template>
 
     </vue-cal>
